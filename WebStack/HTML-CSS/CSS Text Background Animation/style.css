@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran");
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+video {
+  clip-path: url(#clip-00);
+}
+
+.clipping-paths {
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.animated {
+  font-family: "Catamaran", serif;
+  margin: 0;
+  padding: 0;
+  font-size: 6rem;
+  font-weight: 900;
+  background: url(text-bg.png) no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  /* animation: moveBg 20s linear infinite;
+  -webkit-animation: moveBg 20s linear infinite; */
+}
+
+/* Text Animation */
+@keyframes moveBg {
+  0% {
+    background-position: 0% 30%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}

@@ -1,0 +1,165 @@
+/* Global Variables */
+:root {
+  /* Colors */
+  --primary: #474b56;
+  --light: #ffffff;
+  --dark: #000000;
+  --dark-accent: #1b4079;
+  --light-accent: #4392f1;
+}
+
+/* Global */
+body {
+  font: 1.1rem Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.bar {
+  background: url(../img/product-showcase.jpg) no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  border-bottom: 3px var(--light) solid;
+}
+.wrapper {
+  display: flex;
+  flex-basis: 10%;
+  align-items: center;
+}
+
+.box-branding {
+  flex: 1;
+}
+
+.box-branding h1 {
+  width: 500px;
+  margin: auto;
+}
+
+.box-nav {
+  flex: 1;
+}
+
+.current {
+  text-decoration: underline;
+}
+
+/* Header */
+
+header h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3rem;
+  padding-left: 20px;
+  color: var(--light);
+}
+
+header h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  padding-left: 20px;
+  color: var(--light);
+}
+
+header a {
+  color: var(--light);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header ul {
+  justify-content: center;
+  color: var(--light);
+  list-style: none;
+  width: 100%;
+  margin: auto;
+}
+header li {
+  display: inline;
+  padding: 20px;
+}
+
+header p {
+  color: var(--light);
+}
+
+/* Showcases */
+
+.showcase {
+  padding: 10px;
+  color: var(--light);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.showcase h1 {
+  padding: 0;
+  margin: 0;
+  font-family: Times, Arial, sans-serif;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.showcase-products {
+  padding: 40px;
+  text-align: center;
+}
+
+.content-boxes {
+  display: flex;
+  color: var(--light);
+  flex-basis: 5%;
+}
+
+.bread {
+  height: 600px;
+  background: url(../img/product-bread.jpg) no-repeat;
+  background-size: cover;
+  flex: 1;
+  text-align: center;
+}
+.cake {
+  height: 600px;
+  background: url(../img/product-cake.jpg) no-repeat;
+  background-size: cover;
+  flex: 1;
+  text-align: center;
+}
+.pastry {
+  height: 600px;
+  background: url(../img/product-pie.jpg) no-repeat;
+  background-size: cover;
+  flex: 1;
+  text-align: center;
+}
+.cookie {
+  height: 600px;
+  background: url(../img/product-cookie.jpg) no-repeat;
+  background-size: cover;
+  flex: 1;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  padding-left: 10px;
+  color: var(--light);
+  font-size: 0.8rem;
+  text-align: center;
+  position: absolute;
+  top: 95%;
+}
+
+footer a {
+  color: var(--light);
+  text-decoration: underline;
+  font-style: italic;
+}
