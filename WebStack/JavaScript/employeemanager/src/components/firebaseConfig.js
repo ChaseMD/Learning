@@ -1,8 +1,8 @@
 export default {
-  apiKey: "AIzaSyBvnkuUhIcObPI19Jddra_tk9i5hxZ3ZLc",
-  authDomain: "vuefs-prod-88b78.firebaseapp.com",
-  databaseURL: "https://vuefs-prod-88b78.firebaseio.com",
-  projectId: "vuefs-prod-88b78",
-  storageBucket: "vuefs-prod-88b78.appspot.com",
-  messagingSenderId: "469323032998"
-}
+  apiKey: "AIzaSyCkUT4HaYufIluJN_QtSC5OwX6zvjmKJpg",
+  authDomain: "empman-b2de4.firebaseapp.com",
+  databaseURL: "https://empman-b2de4.firebaseio.com",
+  projectId: "empman-b2de4",
+  storageBucket: "empman-b2de4.appspot.com",
+  messagingSenderId: "633442247185"
+};
