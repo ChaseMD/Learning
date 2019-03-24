@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #25272e;
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+header {
+  background: white;
+  padding: 20px;
+}
+
+header > h1 {
+  color: #25272e;
+  text-align: center;
+}
+
+.scoreboard {
+  margin: 20px auto;
+  padding: 15px 20px;
+  border: 3px solid white;
+  border-radius: 4px;
+  text-align: center;
+  width: 200px;
+  color: white;
+  font-size: 2.5rem;
+  position: relative;
+}
+
+.badge {
+  background-color: #e25840;
+  color: white;
+  font-size: 0.8rem;
+  padding: 2px 10px;
+}
+
+#userlabel {
+  position: absolute;
+  top: 30px;
+  left: -25px;
+}
+
+#complabel {
+  position: absolute;
+  top: 30px;
+  right: -28px;
+}
+
+.result {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.result > p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.choices {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.choice {
+  border: 4px solid white;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 0px 20px;
+  display: inline-block;
+  color: wheat;
+}
+
+#Paper.choice i {
+  padding: 0px 5px;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background: grey;
+  transition: all 0.3s ease-in-out;
+}
+
+#action-msg {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.win {
+  border: 4px solid green;
+}
+
+.lose {
+  border: 4px solid red;
+}
+
+.draw {
+  border: 4px solid gray;
+}
