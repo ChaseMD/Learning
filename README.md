@@ -9,4 +9,5 @@ Repository for all of my learning material in software development & computer sc
 1. Advanced HTML/CSS
 2. Basics of JavaScript
 3. Using advanced HTML/CSS and vanilla JavaScript to build common website features without libaries or frameworks
+4. Accessibility
 
