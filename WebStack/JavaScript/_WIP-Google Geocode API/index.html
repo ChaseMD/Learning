@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Google Geocode API</title>
+  </head>
+  <body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+      geocode();
+
+      function geocode() {
+        var loc = "695 North St Rockvale CO";
+        axios
+          .get("https://maps.googleapis.com/maps/api/geocode/json", {
+            params: {
+              address: location,
+              key: "AIzaSyBSMmXbq-DiP_RXNI94ZNiYvUAYEXGyICw"
+            }
+          })
+          .then(function(response) {
+            console.log(response);
+          })
+          .catch(err => cosnole.log(err));
+      }
+    </script>
+  </body>
+</html>
